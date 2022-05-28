@@ -1,0 +1,13 @@
+.hidden {
+    display: none;
+}
+
+.fullScreen {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+}
+
+.pip {
+    position: absolute;
+}

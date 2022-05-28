@@ -1,0 +1,17 @@
+{
+    "name": "video-pip-demo",
+    "author": {
+        "name": "Indrek Juhani"
+    },
+    "license": "MIT",
+    "scripts": {
+        "start": "ws --port 8888 --https --http2"
+    },
+    "dependencies": {
+        "hls.js": "^1.1.5",
+        "ogv": "^1.8.9"
+    },
+    "devDependencies": {
+        "local-web-server": "^5.2.1"
+    }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="app.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.1.5/hls.js" integrity="sha512-YR4vWgTmC0QwRfYKWTy1eTMvBYpmAsSGP76is/15Uxqfa3N/qYRZKFE8pf66GsfSrFksaJkNmbTS2BcdLamZoA==" crossorigin="anonymous" referrerpolicy="no-referrer" mode="defer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/ogv@1.8.9/dist/ogv.js" crossorigin="anonymous" referrerpolicy="no-referrer" mode="defer"></script>
+        <script type="module">
+            import { init } from "./src/main.js";
+            init();
+        </script>
+    </head>
+    <body>
+        <button id="startBtn">START</button>
+        <video id="hlsPlayer" class="hidden fullScreen"></video>
+        <div id="pipPlayer" class="hidden pip"></div>
+    </body>
+</html>
